@@ -4,12 +4,12 @@ namespace Assets.Source.Scripts.GameSource.GameStateMachine
 {
     public class GamePrepareState : IState
     {
-        private LetterFactory _letterFactory;
-        private LetterListView _letterListView;
-        private WordSelector _wordSelector;
-        private GameFinisher _gameFinisher;
-        private PlayerTurn _playerTurn;
-        private GameStateMachine _gameStateMachine;
+        private readonly LetterFactory _letterFactory;
+        private readonly LetterListView _letterListView;
+        private readonly WordSelector _wordSelector;
+        private readonly GameFinisher _gameFinisher;
+        private readonly PlayerTurn _playerTurn;
+        private readonly GameStateMachine _gameStateMachine;
 
         private string _word;
 

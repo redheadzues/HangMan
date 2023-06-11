@@ -4,8 +4,8 @@ namespace Assets.Source.Scripts.GameSource.GameStateMachine
 {
     public class StartGameState : IState
     {
-        private StartGameView _startGameView;
-        private GameStateMachine _stateMachine;
+        private readonly StartGameView _startGameView;
+        private readonly GameStateMachine _stateMachine;
 
         public StartGameState(StartGameView startGameView, GameStateMachine stateMachine)
         {

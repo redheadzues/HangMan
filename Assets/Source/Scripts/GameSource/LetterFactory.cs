@@ -5,8 +5,8 @@ namespace Assets.Source.Scripts.GameSource
 {
     public class LetterFactory
     {
-        private LetterItemView _letterPrefab;
-        private KeyboardItemView _keyboardPrefab;
+        private readonly LetterItemView _letterPrefab;
+        private readonly KeyboardItemView _keyboardPrefab;
 
         public LetterFactory(LetterItemView prefab, KeyboardItemView keyboardPrefab)
         {

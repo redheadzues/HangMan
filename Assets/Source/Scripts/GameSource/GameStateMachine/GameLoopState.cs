@@ -2,11 +2,11 @@
 {
     public class GameLoopState : IState
     {
-        private WordSelector _wordSelector;
-        private PlayerTurn _playerTurn;
-        private GameView _gameView;
-        private GameFinisher _gameFinisher;
-        private GameStateMachine _gameStateMachine;
+        private readonly WordSelector _wordSelector;
+        private readonly PlayerTurn _playerTurn;
+        private readonly GameView _gameView;
+        private readonly GameFinisher _gameFinisher;
+        private readonly GameStateMachine _gameStateMachine;
 
         public GameLoopState(
             PlayerTurn playerTurn,

@@ -2,7 +2,7 @@
 {
     public class ScoreCounter
     {
-        private ScoreView _scoreView;
+        private readonly ScoreView _scoreView;
 
         private int _winCount;
         private int _loseCount;

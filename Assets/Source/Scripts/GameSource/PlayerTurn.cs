@@ -4,11 +4,12 @@ namespace Assets.Source.Scripts.GameSource
 {
     public class PlayerTurn
     {
-        private Keyboard _keyboard;
-        private LetterListView _letterListView;
+        private readonly Keyboard _keyboard;
+        private readonly LetterListView _letterListView;
+        private readonly HangmanView _hangmanView;
+        private readonly GameFinisher _gameFinisher;
+
         private string _guessWord;
-        private HangmanView _hangmanView;
-        private GameFinisher _gameFinisher;
 
         public PlayerTurn(Keyboard keyboard, LetterListView letterList, HangmanView hangmanView, GameFinisher gameFinisher)
         {

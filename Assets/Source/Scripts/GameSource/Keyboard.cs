@@ -6,8 +6,8 @@ namespace Assets.Source.Scripts.GameSource
 {
     public class Keyboard
     {
-        private LetterFactory _letterFactory;
-        private GameKeyboardView _keyboardView;
+        private readonly LetterFactory _letterFactory;
+        private readonly GameKeyboardView _keyboardView;
 
         private HashSet<int> _enteredCharIndexes;
 

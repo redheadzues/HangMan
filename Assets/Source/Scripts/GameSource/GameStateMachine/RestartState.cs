@@ -4,10 +4,10 @@ namespace Assets.Source.Scripts.GameSource.GameStateMachine
 {
     public class RestartState : IState
     {
-        private RestartView _restartGameView;
-        private GameStateMachine _gameStateMachine;
-        private GameFinisher _gameFinisher;
-        private TextSetter _textSetter;
+        private readonly RestartView _restartGameView;
+        private readonly GameStateMachine _gameStateMachine;
+        private readonly GameFinisher _gameFinisher;
+        private readonly TextSetter _textSetter;
 
         public RestartState(RestartView restartGameView, GameStateMachine gameStateMachine, GameFinisher gameFinisher, TextSetter textSetter)
         {
